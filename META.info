@@ -1,6 +1,6 @@
 {
   "name " : "Semantic::Versioning",
-  "version" : "0.1.0",
+  "version" : "*",
   "description" : "Semantic versioning for objects",
   "author" : "Sir Robert Burbridge",
   "depends" : [],
