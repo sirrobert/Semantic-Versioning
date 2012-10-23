@@ -1,10 +1,12 @@
 use Test;
 
-plan 6;
+plan 7;
 
 use Semantic::Versioning;
 
 my $version = Semantic::Version.new;
+
+is $version.version, "0.0.0";
 
 $version.version = '3.4.2';
 

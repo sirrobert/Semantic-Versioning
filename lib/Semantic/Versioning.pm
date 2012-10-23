@@ -1,9 +1,9 @@
 role Semantic::Versioning {
 
   has Str $.version is rw;
-  has Int $.major-version is rw;
-  has Int $.minor-version is rw;
-  has Int $.patch-version is rw;
+  has Int $.major-version is rw =0;
+  has Int $.minor-version is rw =0;
+  has Int $.patch-version is rw =0; 
 
 
   method !get_version (  ) { $!version      }
