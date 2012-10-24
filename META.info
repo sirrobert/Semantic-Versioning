@@ -1,5 +1,5 @@
 {
-  "name " : "Semantic::Versioning",
+  "name" : "Semantic::Versioning",
   "version" : "*",
   "description" : "Semantic versioning for objects",
   "author" : "Sir Robert Burbridge",
